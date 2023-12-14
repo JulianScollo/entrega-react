@@ -1,7 +1,8 @@
 const CartWidget = () =>{
     return (
-        <div>
-            <p>Cart</p>
+        <div className="nav-item d-flex">
+          <img className="h-25 d-inline-block" src="./img/carrito.png" alt="" />
+          <p>1</p>
         </div>
     )
 }

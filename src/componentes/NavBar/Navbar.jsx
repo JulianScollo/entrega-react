@@ -23,11 +23,8 @@ const Navbar = () =>{
             <li><a className="dropdown-item" href="#">Figuras</a></li>
           </ul>
         </li>
-        <li className="nav-item d-flex">
-          <img className="h-25 d-inline-block" src="./img/carrito.png" alt="" />
-          <p>1</p>
-        </li>
       </ul>
+      <CartWidget/>
     </div>
   </div>
 </nav>
